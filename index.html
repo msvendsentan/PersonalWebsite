@@ -1,90 +1,95 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="Michael Svendsen personal website">
-        <meta name="keywords" content="resume,professional,portfolio,about,contact">
-        <meta name="author" content="Michael Svendsen">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Michael Svendsen</title>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-        <script src="./assets/javascript/script.js"></script>
-    </head>
-    <body>
-        <div id="main_content">
-            <header>
-                <div id="header_container">
-                    <div id="header_name">
-                        <span id="first_name">Michael</span> 
-                        <span id="last_name">Svendsen</span>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Michael Svendsen personal website">
+    <meta name="keywords" content="resume,professional,portfolio,about,contact">
+    <meta name="author" content="Michael Svendsen">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Svendsen</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="./assets/javascript/script.js"></script>
+</head>
+<body>
+    <div id="main_content">
+        <header>
+            <div id="header_container">
+                <div id="header_name">
+                    <span id="first_name">Michael</span> 
+                    <span id="last_name">Svendsen</span>
+                </div>
+                <nav id="nav_bar">
+                    <a id="active_nav_link" href="#"><i class="fa fa-home"></i> Home</a>
+                    <a href="#"><i class="fa fa-user"></i> About</a>
+                    <a href="#"><i class="fa fa-file"></i> Resume</a>
+                    <a href="./portfolio.html"><i class="fa fa-book"></i> Portfolio</a>
+                    <a href="#"><i class="fa fa-envelope"></i> Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div id="banner_container">
+                <img src="./assets/images/banner-cropped.png" id="banner">
+                <div id="banner_text">
+                    <a href="#" id="strategy">Strategy</a>
+                    <a href="#" id="marketing">Marketing</a>
+                    <a href="#" id="health care">Health Care</a>
+                    <a href="#" id="technology">Technology</a>
+                </div>
+            </div>
+            <div id="content_container" class="home_columns">
+                <article>
+                    <h2>Hi,</h2>
+                    <p>
+                        I'm Michael. I'm a jack-of-all-trades problem-solver that will always look for a smarter way to do things. 
+                        I'm a perennial learner; I think the day that we stop learning new things is the day life becomes monochromatic.
+                    </p>
+                    <p>
+                        Please note that this site is currently under construction, with an estimated completion of late August 2018.
+                        It will be built with an initial focus on showcasing my coding portfolio as I continue to study at the University of Toronto's
+                        Part-Time Coding Bootcamp. Interested? <a href="https://github.com/msvendsentan/">Follow my progress</a>.
+                    </p>
+                    <p>
+                        This site is built using newer HTML, CSS, and javascript that older browsers may not fully support. 
+                        It is best viewed using an up-to-date browser. Please report any issues you may have in my contact page.
+                    </p>
+                    <p>
+                        <strong>Note: I'm working on adding mobile responsiveness to the site. Currently only the home and portfolio pages are live.</strong>
+                    </p>
+                    <div id="quote_container">
+                        <i class="quotes fas fa-quote-left fa-3x"></i>
+                        <blockquote>Life is a continuous exercise in creative problem solving.</blockquote>
+                        <i class="quotes fas fa-quote-right fa-3x"></i>
                     </div>
-                    <nav id="nav_bar">
-                        <a id="active_nav_link" href="#"><i class="fa fa-home"></i> Home</a>
-                        <a href="#"><i class="fa fa-user"></i> About</a>
-                        <a href="#"><i class="fa fa-file"></i> Resume</a>
-                        <a href="#"><i class="fa fa-book"></i> Portfolio</a>
-                        <a href="#"><i class="fa fa-envelope"></i> Contact</a>
-                    </nav>
-                </div>
-            </header>
+                    <p id="quote_source_indent">-Michael J. Gelb</p>
+                    
 
-            <main>
-                <div id="banner_container">
-                    <img src="./assets/images/banner-cropped.png" id="banner">
-                    <div id="banner_text">
-                        <a href="#" id="strategy">Strategy</a>
-                        <a href="#" id="marketing">Marketing</a>
-                        <a href="#" id="health care">Health Care</a>
-                        <a href="#" id="technology">Technology</a>
-                    </div>
-                </div>
-                <div id="content_container">
-                    <article>
-                        <h2>Hi,</h2>
-                        <p>
-                            I'm Michael. I'm a jack-of-all-trades problem-solver that will always look for a smarter way to do things. 
-                            I'm a perennial learner; I think the day that we stop learning new things is the day life becomes monochromatic.
-                        </p>
-                        <p>
-                            Please note that this site is currently under construction, with an estimated completion of late August 2018.
-                            It will be built with an initial focus on showcasing my coding portfolio as I continue to study at the University of Toronto's
-                            Part-Time Coding Bootcamp.
-                        </p>
-                        <p>
-                            This site is built using newer HTML, CSS, and javascript that older browsers may not fully support. 
-                            It is best viewed using an up-to-date browser. Please report any issues you may have in my contact page.
-                        </p>
-                        <div id="quote_container">
-                            <i class="quotes fas fa-quote-left fa-3x"></i>
-                            <blockquote>Life is a continuous exercise in creative problem solving.</blockquote>
-                            <i class="quotes fas fa-quote-right fa-3x"></i>
-                        </div>
-                        <p id="quote_source_indent">-Michael J. Gelb</p>
-                        
-
-                    </article>
-                    <aside>
-                        <img src="./assets/images/photo.png" id="personal_photo">
-                    </aside>
-                </div>
+                </article>
+                <aside>
+                    <img src="./assets/images/photo.png" id="personal_photo">
+                </aside>
+            </div>
 
 
-            </main>
-            <div id="footer_push"></div>
+        </main>
+        <div id="footer_push"></div>
+    </div>
+
+    <footer>
+        <div id="media_buttons">
+            <a href="https://www.linkedin.com/in/michaelrsvendsen/"><i class="fab fa-linkedin-in"></i></a>
+            <a href="http://michaelsvendsen.ca/"><i class="fas fa-globe"></i></a>
+            <a href="https://github.com/msvendsentan/"><i class="fab fa-github"></i></a>
         </div>
+        <div id="copyright">
+            Copyright © 2018. <a href="./index.html">Michael Svendsen</a>. All Rights Reserved.
+        </div>
+    </footer>
 
-        <footer>
-            <div id="media_buttons">
-                linkedin | website | etc
-            </div>
-            <div id="copyright">
-                Copyright © 2018. <a href="./index.html">Michael Svendsen</a>. All Rights Reserved.
-            </div>
-        </footer>
-
-    </body>
+</body>
 </html>
 
 <!--Splash: Strategy | Marketing | Technology | Health Care
